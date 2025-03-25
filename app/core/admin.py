@@ -60,6 +60,7 @@ class UserAdmin(BaseUserAdmin):
 
 
 admin.site.register(models.User, UserAdmin)
+admin.site.register(models.Recipe)
 
 admin.site.site_header = "Resort Management Admin"
 admin.site.site_title = "Resort Admin Portal"
